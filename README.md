@@ -96,3 +96,7 @@ conflicts?
 
 These questions are designed to provide a comprehensive assessment of the candidate's skills, experience, and fit
 for the team.
+
+#React 19  features
+-its introduces new complier 
+-it has made useMemo and useCallback hook obselute thanks to react 19 complier
