@@ -49,3 +49,24 @@ const n = 3;
 
 const result = merge(nums1, m, nums2, n);
 console.log(result); // Output: [1, 2, 2, 3, 5, 6]
+
+
+remove all occurence of element from array
+function removeElement(num,val){
+let k = 0;
+// 1 3 4 5 6 2
+//[1,2,3,4,5,6,2]; k=5
+for(let i=0;i<=num.length-1;i++){
+    if(num[i]!==val){
+    num[k]=num[i];
+    k++;
+    }
+}
+return k;
+}
+
+let num = [1,2,3,4,5,6,2]
+
+console.log(removeElement(num,2));
+let k1= removeElement(num,2);
+console.log(num.slice(0,5));
